@@ -9,7 +9,7 @@ Dan yang harus diperhatikan adalah file `users.db` yang diberikan. Ternyata isin
 
 ![admin](./assets/data_database.png)
 
-Nah disini saat dilihat aku gak tahu ini jenis algoritma enkripsi/hashing apa, dan setelah aku membaca kode pythonnya yaitu `app.py` disitu aku tahu bahwa yang divalidasi adalah SHA256. Aku disini menggunakan Crackstation untuk meng-crack hashingan ini untuk mendapatkan passwordnya. `c20fa16907343eef642d10f0bdb81bf629e6aaf6c906f26eabda079ca9e5ab67` ini merupakan hashing yang harus dicari, aku sudah mencoba dari c sampai e itu gagal dan kucoba coba dari c 2 sampai e juga gagal, dan akhirnya ketemulah c sampai 7. Dan hasilnya adalah `apple@123` untuk passwordnya.
+Nah disini saat dilihat aku gak tahu ini jenis algoritma enkripsi/hashing apa, dan setelah aku membaca kode pythonnya yaitu `app.py` disitu aku tahu bahwa yang divalidasi adalah SHA256. Aku disini menggunakan Crackstation untuk meng-crack hashingan ini untuk mendapatkan passwordnya. `c20fa16907343eef642d10f0bdb81bf629e6aaf6c906f26eabda079ca9e5ab67` ini merupakan hashing yang harus dicari, aku sudah mencoba dari c sampai e itu gagal dan kucoba coba dari 2 sampai e juga gagal, dan akhirnya ketemulah c sampai 7. Dan hasilnya adalah `apple@123` untuk passwordnya.
 
 ![password](./assets/crack_password.png)
 
