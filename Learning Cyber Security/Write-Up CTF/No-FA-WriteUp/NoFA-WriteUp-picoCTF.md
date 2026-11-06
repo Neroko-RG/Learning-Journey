@@ -17,4 +17,11 @@ Kemudian, kalian bisa coba akses ke halaman login tadi dengan username itu `admi
 ```bash
 flask-unsign -d -c 'Value_cookie'
 ```
-Nah setelah itu kita akan dapat OTP Secret yang tadi digunakan untuk menyimpan OTP yang digenerate melalui python. Kemudian kalian bisa masukkan OTP tersebut ke halaman web yang tadi menagih cookie (Itu ada waktunya 120 detik atau 2 menit, jadi kalau kelamaan kalian bisa ulangi aja proses tadi sampai dapet OTP yang value nya berbeda). Kemudian kalian akan mendapat flagnya setelah login dari OTP yang kalian dapat.
+Nah setelah itu kita akan dapat OTP Secret yang tadi digunakan untuk menyimpan OTP yang digenerate melalui python.
+
+`{logged': 'false', 'otp_secret': '7621', 'otp_timestamp': 1793691684.1870017, '
+username': 'admin'}`
+
+Seperti ini contohnya.
+
+Kemudian kalian bisa masukkan OTP tersebut ke halaman web yang tadi menagih cookie (Itu ada waktunya 120 detik atau 2 menit, jadi kalau kelamaan kalian bisa ulangi aja proses tadi sampai dapet OTP yang value nya berbeda). Kemudian kalian akan mendapat flagnya setelah login dari OTP yang kalian dapat.
