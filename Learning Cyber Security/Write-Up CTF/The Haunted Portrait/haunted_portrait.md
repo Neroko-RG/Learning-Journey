@@ -9,7 +9,8 @@ Deskripsi penting dari soal itu adalah `"Students claim the painting changes whe
 Ini menandakan ada sesuatu dibalik atau dibelakang fotonya.
 
 ![foto](assets/haunted_portrait.png)
-Disin tampak normal dari fotonya dan kita coba cek metadatanya langsung.
+
+Disini tampak normal dari fotonya dan kita coba cek metadatanya langsung.
 
 ![metadata](assets/exif.png)
 
